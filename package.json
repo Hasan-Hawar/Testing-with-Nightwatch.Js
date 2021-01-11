@@ -1,0 +1,24 @@
+{
+  "name": "Test-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasan-Hawar/Testing-with-Nightwatch.Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hasan-Hawar/Testing-with-Nightwatch.Js/issues"
+  },
+  "homepage": "https://github.com/Hasan-Hawar/Testing-with-Nightwatch.Js#readme",
+  "devDependencies": {
+    "chromedriver": "^87.0.5",
+    "nightwatch": "^1.5.1"
+  }
+}
