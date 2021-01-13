@@ -1,9 +1,10 @@
 {
-  "name": "Test-course",
+  "name": "test-course",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch",
     "test": "nightwatch"
   },
   "repository": {
