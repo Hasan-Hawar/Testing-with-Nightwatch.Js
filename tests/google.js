@@ -9,7 +9,7 @@ module.exports = {
       .navigate()
       .setQuery(mainQuery)
       .selectFilter("@languageDropdown", "lang_ar")
-      .selectFilter("@lastUpdateDropDown", "m")
+      .selectFilter("@lastUpdateDropDown", "w")
       .search();
 
     browser.assert
