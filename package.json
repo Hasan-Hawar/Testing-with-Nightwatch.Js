@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "debug": "node --inspect-brk node_modules/.bin/nightwatch",
-    "test": "nightwatch"
+    "test": "nightwatch",
+    "test:vrt": "nightwatch -c nightwatch.vrt.conf.js",
+    "consolidate:vrt": "CONSOLIDATE=1 npm run test:vrt"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,10 @@
   "homepage": "https://github.com/Hasan-Hawar/Testing-with-Nightwatch.Js#readme",
   "devDependencies": {
     "chromedriver": "^87.0.5",
+    "eslint": "^7.17.0",
     "nightwatch": "^1.5.1"
+  },
+  "dependencies": {
+    "nightwatch-vrt": "^0.2.10"
   }
 }
